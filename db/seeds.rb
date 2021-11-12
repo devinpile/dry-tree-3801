@@ -1,2 +1,2 @@
-hospital = Hospital.create(name: "Grey Sloan Memorial Hospital")
-dr_bailey = hospital.doctors.create(name: "Miranda Bailey", specialty: "General Surgery", education: "Stanford University")
+# hospital = Hospital.create(name: "Grey Sloan Memorial Hospital")
+# dr_bailey = hospital.doctors.create(name: "Miranda Bailey", specialty: "General Surgery", education: "Stanford University")
