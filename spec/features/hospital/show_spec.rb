@@ -15,7 +15,7 @@ RSpec.describe "Hospital Show Page" do
                              specialty: "Transplant Surgery",
                              education: "Harvard University",
                              hospital_id: @hospital.id)
-
+    visit hospital_path(@hospital)
   end
 
   describe "when i visit a hospital show page" do
@@ -32,7 +32,7 @@ RSpec.describe "Hospital Show Page" do
       within "#education" do
         expect(page).to have_content("Yale University")
         expect(page).to have_content("Harvard University")
-      end 
+      end
     end
   end
 end
